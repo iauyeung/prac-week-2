@@ -1,0 +1,51 @@
+body {
+    font-family: helvetica, sans-serfi;
+    background: #9D9EFF;
+    color: #0003FF;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #6869DB;
+}
+
+.topnav p {
+    text-align: center;
+ }
+.topnav img {
+    float: left;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #002775;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+        color: #FFFFFF;
+        font-weight: bold;
+}
+
+.topnav a.active {
+    background-color: #6BBCFF;
+    color: #FFFFFF;
+    font-weight: bold;
+ }
+
+.topnav input[type="text"] {
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+}
+
+.topnav input[type="text"] {
+    border: 1px solid;
+}

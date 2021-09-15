@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Week 2 Practical</title>
+    <link rel="stylesheet" href="practical_2.css">
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td, th {
+            border: 2px solid #808080;
+            text-align: left;
+            padding: 10px;
+        }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        tr:nth-child(odd) {
+            background-color: #FFFFFF;
+        }
+        .column {
+            column-count: 4;
+        }
+    </style>
+    <!--Vue Library-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div class="topnav">
+        <h1 style="color:white">Week 2 Practical</h1>
+        <a href="#video">Video</a>
+        <a href="#vue">Vue</a>
+        <a href="#button">Buttons</a>
+        <a href="#columns">Column</a>
+        <a href="#form">Form</a>
+        <a href="#table">Table</a>
+        <a href="#image">Image</a>
+        <a href="#paragraph">Paragraph</a>
+    </div>
+    <hr>
+    <div id="paragraph"></div>
+    <h3>The following is a paragraph of text</h3>
+    <p>
+        This is a normal line of text <br>
+        <b>This is a line of text in bold</b><br>
+        <i>This is a line of text in italics</i><br>
+        <del>This is a line of text with strikethrough</del>
+    </p>
+    <hr>
+    <div id="image"></div>
+    <h3>The following is an image</h3>
+    <img src="https://pbs.twimg.com/media/EcrObVKUwAAN68m.jpg" alt="nyaa" style="center">
+    <hr>
+    <div id="table"></div>
+    <h3>The following is a table</h3>
+    <table style="color:#000000;">
+        <!--inline CSS-->
+        <tr>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Platform</th>
+        </tr>
+        <tr>
+            <td>Nyatasha Kotova Nyanners III</td>
+            <td>VShojo</td>
+            <td>Twitch</td>
+        </tr>
+        <tr>
+            <td>Akai Haato Haachama</td>
+            <td>Hololive 1st Gen</td>
+            <td>Youtube</td>
+        </tr>
+        <tr>
+            <td>Inugami Korone</td>
+            <td>Hololive GAMERS</td>
+            <td>Youtube</td>
+        </tr>
+        <tr>
+            <td>Usada Pekora</td>
+            <td>Hololive 3rd Gen</td>
+            <td>Youtube</td>
+        </tr>
+        <tr>
+            <td>Ninomae Ina'nis</td>
+            <td>Hololive EN 1st Gen</td>
+            <td>Youtube</td>
+        </tr>
+        <tr>
+            <td>Oozora Subaru</td>
+            <td>Hololive 2nd Gen</td>
+            <td>Youtube</td>
+        </tr>
+        <tr>
+            <td>Nakiri Ayame</td>
+            <td>Hololive 2nd Gen</td>
+            <td>Youtube</td>
+        </tr>
+        <tr>
+            <td>Veibae</td>
+            <td>VShojo</td>
+            <td>Twitch</td>
+        </tr>
+        <tr>
+            <td>Ironmouse</td>
+            <td>VShojo</td>
+            <td>Twitch</td>
+        </tr>
+    </table>
+    <hr>
+    <div id="form"></div>
+    <h3>The following is a form</h3>
+    <form action="">
+        <label for="input_1">Input 1:</label><br>
+        <input type="text" id="input_1" name="input_1" value=""><br>
+        <label for="lname">Input 2:</label><br>
+        <input type="text" id="input_2" name="input_2" value=""><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <div id="columns"></div>
+    <h3>The following is a paragraph in 4 columns</h3>
+    <div class="column">
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+    </div>
+    <hr>
+    <div id="button"></div>
+    <div>
+        <h3>The following are buttons</h3>
+        <!--Javascript Functionality-->
+        <button type="button" onclick=alert("heh")>Click Me</button>
+        <button onclick="window.print()">Click Me Too</button>
+    </div>
+    <hr>
+    <div id="vue"></div>
+    <h3>The following is Vue To Do List</h3>
+    <!--vue-->
+    <div id="vue_practical_2">
+        <ol>
+            <li v-for="todo in todos">
+                {{ todo.text }}
+            </li>
+        </ol>
+    </div>
+    <!--Javascript file for Vue code-->
+    <script src="practical_2.js"></script>
+    <hr>
+    <div id="video"></div>
+    <h3>The following is an embedded youtube video</h3>
+    <iframe width="1120" height="630" src="https://www.youtube.com/embed/mDCpF5eyh74" title="DOCCHI DOCCHI" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
